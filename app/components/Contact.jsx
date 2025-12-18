@@ -110,7 +110,7 @@ const Contact = () => {
           className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover dark:text-white/90"
         >
           Submit now
-          <Image src={assets.right_arrow_white} alt="submit" className="w-4" />
+          <Image src={assets.right_arrow_white} alt="submit" className="w-4 h-auto" />
         </motion.button>
         <p className="mt-4">{result}</p>
       </motion.form>

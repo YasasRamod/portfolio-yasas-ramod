@@ -52,18 +52,18 @@ const Header = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
           href="#contact"
-          className="px-10 py-3 border border-white rounded-full bg-black text-white flex item-center gap-2 dark:bg-transparent"
-        >
-          contact me
-          <Image
-            src={assets.right_arrow_white}
-            alt="Contact arrow"
-            className="w-4 mx-auto my-auto"
-          />
-        </motion.a>
-        <motion.a
-          initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+        className="px-10 py-3 border border-white rounded-full bg-black text-white flex item-center gap-2 dark:bg-transparent"
+      >
+        contact me
+        <Image
+          src={assets.right_arrow_white}
+          alt="Contact arrow"
+          className="w-4 h-auto mx-auto my-auto"
+        />
+      </motion.a>
+      <motion.a
+        initial={{ y: 30, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
           href="/sample-resume.pdf"
           download
@@ -73,7 +73,7 @@ const Header = () => {
           <Image
             src={assets.download_icon}
             alt="Contact arrow"
-            className="w-4 my-auto py-1"
+            className="w-4 h-auto my-auto py-1"
           />
         </motion.a>
       </div>
